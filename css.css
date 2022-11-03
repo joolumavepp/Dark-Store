@@ -1,0 +1,140 @@
+  body{
+  width: auto;
+  height: auto;
+  color: #fff;
+  background: linear-gradient(45deg, #000000,#000000,#58fff1);
+  background-size: 700% 400%;
+  position: relative;
+  animation: cambiar 10s ease infinite;
+  color: rgb(182, 243, 255);
+  font-family: 'Silkscreen', cursive;
+  margin: 10px;
+  }
+  @keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+  }
+  header{
+    border: 6px solid rgb(0, 217, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    overflow: hidden;
+    background-color: #9312dd;
+    padding: 10px 10px;
+  }
+  .logo img{
+    height: 70px;
+  }
+  h1{
+   padding: 10px 20px;
+   font-size: 35px;
+  }
+  p{
+   padding: 10px 30px;
+   font-size: 18px;
+  }
+  h3{
+   padding: 10px 30px;
+   font-size: 25px;
+  }
+  h1{
+   border: 5px solid rgb(0, 217, 255);
+   border-radius: 20px;
+   text-align: center;
+   padding: 8px;
+   /* width: 100%; */
+  }
+  .pie {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  .central{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .centrar {
+    border: 8px solid rgb(234, 0, 255);
+   border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px; 
+    line-height: 30px;
+    border-radius: 20px;
+  }
+  nav a:hover {
+    background-color: rgb(0, 30, 255);
+    color: rgb(161, 255, 255);
+  }
+
+@media only screen and (max-width: 784px) {
+nav a {
+text-align: right;
+padding: 10px;
+font-size: 15px; 
+line-height: 10px;
+border-radius: 10px;
+image-resolution: 20px;
+}
+h1{
+  font-size: 20px;
+}
+p{
+  font-size: 11px;
+ }
+ h3{
+  font-size: 13px;
+ }
+}
+@media only screen and (max-width: 550px) {
+  nav a {
+  text-align: right;
+  padding: 10px;
+  font-size: 10px; 
+  line-height: 10px;
+  border-radius: 10px;
+  image-resolution: 20px;
+}
+h1{
+  font-size: 20px;
+}
+p{
+  font-size: 11px;
+ }
+ h3{
+  font-size: 13px;
+ }
+}
+@media only screen and (max-width: 430px) {
+  nav a {
+  text-align: right;
+  padding: 10px;
+  font-size: 8px; 
+  line-height: 10px;
+  border-radius: 10px;
+  image-resolution: 20px;
+}
+h1{
+  font-size: 15px;
+}
+p{
+  font-size: 8px;
+ }
+ h3{
+  font-size: 10px;
+ }
+}
